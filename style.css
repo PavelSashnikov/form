@@ -1,0 +1,39 @@
+body {
+    background-color: #ccc;
+    text-align: center;
+}
+a {
+    margin-right: 10px;
+    color: #000;
+    transition: all .3s;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+a:hover, #login-error,
+#signup-error, noscript {
+    color: #a80b0b;
+}
+form {
+    text-align: center;
+    background-color: #fff;
+    margin: 10vh auto;
+    padding: 10px 0;
+    border: 1px solid #000;
+}
+ul, form {
+    width: 20vw;
+    min-width: 190px;
+}
+ul {
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+input {
+    outline: none;
+    border-radius: 5px;
+}
+button {
+    margin-top: 10px;
+}

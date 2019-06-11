@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <noscript><p>Подключите js</p></noscript>
+    
+    <ul id="signup-error"></ul>
+    <form action="/signup.php" method="POST" id="sign-form">
+        <label for="login">Введите логин</label><br>
+        <input type="text" name="login" required><br>
+
+        <label for="pass1">Введите пароль</label><br>
+        <input type="password" name="pass1" required><br>
+
+        <label for="pass2">Введите пароль еще раз</label><br>
+        <input type="password" name="pass2" required><br>
+
+        <label for="email">Введите почту</label><br>
+        <input type="email" name="email" required><br>
+
+        <label for="name">Введите имя</label><br>
+        <input type="text" name="name" required><br>
+
+        <button disabled type="submit">Зарегистрироваться</button>
+    </form>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
